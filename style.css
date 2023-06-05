@@ -69,11 +69,12 @@ body {
 }
 
 .navbar li {
-    margin: 20px 30px;
+    margin: 10px 15px;
 }
 
 .navbar img {
-    width: 90px;
+    padding: 10px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -153,7 +154,7 @@ body {
 /*-------------------conhecimentos-----------------*/
 .conhecimentos {
     width: 100%;
-    height: 500px;
+    height: 300px;
     background-color: #cadeeda8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: grid;
@@ -177,6 +178,7 @@ body {
     margin: 30px;
     border-radius: 20px;
     object-fit: 1;
+    padding-top: 5px;
 }
 
 .conhecimetos-item img {
@@ -209,3 +211,97 @@ body {
     background-color: #194569;
     color: #fff;
 }
+/* ------------------botao wpp---------------------- */
+.msg-wpp{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.msg-wpp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.msg-wpp:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+/* ----------------responsive-------------- */
+@media only screen and (max-width: 600px) {
+    /* -------------------navbar-------------------- */
+    .lista-navbar{
+        padding-left: 300px;
+    }
+    .itemnav {
+        display: none;
+    }
+    .imgnav{
+        margin-left: 15px;
+    }
+    .icon-menu{
+        right: 50px;
+        border-radius: 10px;
+    }
+    #burguer{
+        padding: 10px;
+        cursor: pointer;
+    }
+    #burguer:hover{
+        background-color: #5f84a2;
+        color: #fff;
+    }
+    .itemnav{
+        height: 30px;
+        margin: 10px;
+    }
+    /* -----------------inicio--------------------- */
+    .inicio{
+        margin-top: 100px;
+        height: 250px;
+    }
+    .inicio-img{
+        height: 250px;
+    }
+    .img-ini{
+        width: 100px;
+        margin-top: 95px;
+        margin-left: 50px;
+    }
+    .inicio-h1 {
+        font-size: 16px;
+        margin-right: 12px;
+        text-shadow: 2px 2px #fff;
+    }
+    /*----------------Sobre mim-------------------*/
+    .sobre h2{
+        font-size: 20px;
+    }
+    .sobre p{
+        font-size: 16px;
+    }
+    /*-------------------conhecimentos-----------------*/
+    .conhecimentos{
+        height: 500px;
+    }
+    .cards{
+        display: grid;
+    }
+    .conhecimetos-item{
+        display: flex;
+        width: 150px;
+        height: 50px;
+    }
+    .conhecimetos-item img {
+        width: 30px;
+        border-radius: 5px;
+    }
+    /*--------------contato-----------------*/
+    .contato{
+        height: 300px;
+        display: grid;
+    }
+  }
+/* 600, 800, 1024 */
