@@ -6,10 +6,9 @@
 #cadeed
 #d8ecf4
 ------------------------------------------------*/
-* {
+*{
     box-sizing: border-box;
 }
-
 @keyframes reveal {
     0% {
         transform: translate(0, 100%);
@@ -19,10 +18,9 @@
         transform: translate(0, 0);
     }
 }
-
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -48,8 +46,7 @@ body {
     background-color: #194569;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
-
-.navbar span {
+.navbar span{
     display: none;
 }
 
@@ -100,8 +97,8 @@ body {
     width: 50%;
     height: 500px;
     background-color: #ffffff85;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 350px;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
 
@@ -172,9 +169,10 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 
-.conhecimetos-item {
+.conhecimentos-item {
     background-color: rgba(255, 255, 255, 0.541);
     display: grid;
     align-items: center;
@@ -187,11 +185,11 @@ body {
     padding-top: 5px;
 }
 
-.conhecimetos-item img {
+.conhecimentos-item img {
     width: 50px;
 }
 
-.conhecimetos-item:hover {
+.conhecimentos-item:hover {
     cursor: pointer;
     scale: 1.4;
     transition: 0.5s;
@@ -217,9 +215,8 @@ body {
     background-color: #194569;
     color: #fff;
 }
-
 /* ------------------botao wpp---------------------- */
-.msg-wpp {
+.msg-wpp{
     position: fixed;
     right: 25px;
     bottom: 25px;
@@ -227,110 +224,132 @@ body {
     background-color: transparent;
     cursor: pointer;
 }
-
-.msg-wpp img {
+.msg-wpp img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-
-.msg-wpp:hover {
+.msg-wpp:hover{
     scale: 1.5;
     transition: 0.5s;
 }
-
 /* ----------------responsive-------------- */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 900px){
     /* -------------------navbar-------------------- */
-    .lista-navbar {
+    .itemnav a {
+        font-size: 20px;
+    }
+    /* -----------------inicio--------------------- */
+    .inicio-h1 {
+        font-size: 22px;
+        margin-right: 12px;
+        text-shadow: 2px 2px #fff;
+    }
+    /*----------------Sobre mim-------------------*/
+    .sobre p{
+        font-size: 18px;
+    }
+    /*-------------------conhecimentos-----------------*/
+    .conhecimentos{
+        max-width: 900px;
+    }
+    .cards{
+        display: flex;
+    }
+    .conhecimentos-item{
+        display: flex;
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+    }
+    .conhecimentos-item img {
+        width: 25px;
+        border-radius: 5px;
+    }
+    /*--------------contato-----------------*/
+    .contato{
+        height: 220px;
+        display: grid;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /* -------------------navbar-------------------- */
+    .navbar span{
+        display: block;
+    }
+    /* .lista-navbar{
         padding-left: 300px;
-    }
-
-    .itemnav {
+    } */
+    /* .itemnav {
         display: none;
-    }
-
-    .imgnav {
+    } */
+    .imgnav{
         margin-left: 15px;
     }
-
-    .icon-menu {
+    .icon-menu{
         right: 50px;
         border-radius: 10px;
     }
-
-    #burguer {
+    #burguer{
         padding: 10px;
         cursor: pointer;
     }
-
-    #burguer:hover {
+    #burguer:hover{
         background-color: #5f84a2;
         color: #fff;
     }
-
-    .itemnav {
+    .itemnav{
         height: 30px;
         margin: 10px;
     }
-
+    .itemnav a{
+        font-size: 16px;
+    }
     /* -----------------inicio--------------------- */
-    .inicio {
+    .inicio{
         margin-top: 100px;
         height: 250px;
     }
-
-    .inicio-img {
+    .inicio-img{
         height: 250px;
     }
-
-    .img-ini {
+    .img-ini{
         width: 100px;
         margin-top: 95px;
         margin-left: 50px;
     }
-
     .inicio-h1 {
         font-size: 16px;
         margin-right: 12px;
         text-shadow: 2px 2px #fff;
     }
-
     /*----------------Sobre mim-------------------*/
-    .sobre h2 {
+    .sobre h2{
         font-size: 20px;
     }
-
-    .sobre p {
+    .sobre p{
         font-size: 16px;
     }
-
     /*-------------------conhecimentos-----------------*/
-    .conhecimentos {
+    .conhecimentos{
         height: 500px;
     }
-
-    .cards {
+    .cards{
         display: grid;
     }
-
-    .conhecimetos-item {
+    .conhecimentos-item{
         display: flex;
         width: 150px;
         height: 50px;
     }
-
-    .conhecimetos-item img {
+    .conhecimentos-item img {
         width: 30px;
         border-radius: 5px;
     }
-
     /*--------------contato-----------------*/
-    .contato {
+    .contato{
         height: 300px;
         display: grid;
     }
-}
-
+  }
 /* 600, 800, 1024 */
