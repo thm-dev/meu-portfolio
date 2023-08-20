@@ -131,6 +131,7 @@ body {
 .sobre h2,
 .sobre p {
     max-width: 50%;
+    color: #fff;
 }
 
 .sobre h2 {
