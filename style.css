@@ -267,6 +267,7 @@ body {
     }
     .cards{
         display: flex;
+        height: 150px;
     }
     .conhecimentos-item{
         display: flex;
