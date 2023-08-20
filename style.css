@@ -267,12 +267,11 @@ body {
     }
     .cards{
         display: flex;
-        height: 300px;
     }
     .conhecimentos-item{
         display: flex;
         width: 150px;
-        height: 50px;
+        height: 300px;
         font-size: 12px;
     }
     .conhecimentos-item img {
