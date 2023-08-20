@@ -113,6 +113,8 @@ body {
     font-size: 30px;
     margin-right: 25px;
     text-shadow: 5px 5px #fff;
+    padding-left: 150px;
+    margin-top: -200px;
 }
 
 /*----------------Sobre mim-------------------*/
@@ -177,12 +179,13 @@ body {
     display: grid;
     align-items: center;
     justify-items: center;
-    width: 250px;
-    height: 100px;
+    width: 275px;
+    height: 200px;
     margin: 30px;
     border-radius: 20px;
     object-fit: 1;
     padding-top: 5px;
+    text-align: center;
 }
 
 .conhecimentos-item img {
