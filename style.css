@@ -121,7 +121,7 @@ body {
 /*----------------Sobre mim-------------------*/
 .sobre {
     height: 200px;
-    background-color: #5f84a2ad;
+    background-color: #194569ad;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: flex;
     align-items: center;
