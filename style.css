@@ -63,6 +63,7 @@ body {
     color: #000;
     text-decoration: none;
     line-height: 30px;
+    font-weight: bold;
 }
 
 .itemnav:hover a {
