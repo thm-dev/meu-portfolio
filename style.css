@@ -344,7 +344,7 @@ body {
     }
     /*-------------------conhecimentos-----------------*/
     .conhecimentos{
-        height: 500px;
+        height: 1000px;
     }
     .cards{
         display: grid;
