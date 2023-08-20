@@ -60,7 +60,7 @@ body {
 .itemnav,
 .itemnav a {
     font-size: 24px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     line-height: 30px;
     font-weight: bold;
@@ -68,7 +68,7 @@ body {
 
 .itemnav:hover a {
     background-color: #5f84a2;
-    color: #fff;
+    color: #000;
     border-radius: 10px;
 }
 
