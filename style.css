@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #cadeedb4;
+    background-color: #cadeedd8;
     overflow: hidden;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
@@ -121,7 +121,7 @@ body {
 /*----------------Sobre mim-------------------*/
 .sobre {
     height: 200px;
-    background-color: #194569ad;
+    background-color: #194569d8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ body {
 .conhecimentos {
     width: 100%;
     height: 450px;
-    background-color: #cadeeda8;
+    background-color: #cadeedd8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: grid;
     align-items: center;
@@ -181,7 +181,7 @@ body {
 }
 
 .conhecimentos-item {
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: #ffffff8a;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -209,7 +209,7 @@ body {
 .contato {
     width: 100%;
     height: 500px;
-    background-color: #194569ad;
+    background-color: #194569d8;
     animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     display: flex;
     align-items: center;
