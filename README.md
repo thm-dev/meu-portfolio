@@ -61,3 +61,18 @@ Estilização dos projetos
     width: 300px;
     height: 100px;
 } */
+Menu Hamburguer
+<!-- <span id="burguer" class="material-symbols-outlined icon-menu" onclick="clickMenu()">menu</span> -->
+<!-- <li id="menu" class="itemnav"><a href="#projetos">Projetos</a></li> -->
+<!-- <div>
+        <div>
+            <img src="" alt="" onclick="">
+        </div>
+    </div> -->
+    
+    /* .lista-navbar{
+        padding-left: 300px;
+    } */
+    /* .itemnav {
+        display: none;
+    } */
