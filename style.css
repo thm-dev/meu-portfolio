@@ -143,21 +143,6 @@ body {
     font-weight: 500;
 }
 
-/*-----------------projetos----------------*/
-/* .projetos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    background-color: #b7d0e1bd;
-    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-}
-
-.item-proj {
-    width: 300px;
-    height: 100px;
-} */
-
 /*-------------------conhecimentos-----------------*/
 .conhecimentos {
     width: 100%;
